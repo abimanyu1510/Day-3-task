@@ -1,0 +1,188 @@
+//TASK:2 SIMOPERATORSPLE PROGRAM TODO FOR OPERATORS:
+//1.square of number:
+var a=7;
+//console.log(a*a);
+console.log(Math.pow(a,2));
+//----------------------------------------
+//2.swapping 2 numbers:
+var a1=35;
+var b1=25;
+var temp=a1;
+a1=b1;
+b1=temp;
+console.log({a1});
+console.log({b1});
+//-------------------------------------
+//3.Addition of 3 numbers:
+var num1=2;
+var num2=7;
+var num3=5;
+var w=num1+num2+num3;
+console.log(w);
+//--------------------------------------
+//4.celsius to ferenheit conversion:
+//formula:F=C*(9/5)+32
+var celsius=25;
+var F=celsius*(9/5)+32;
+console.log(F);
+//--------------------------------------
+//5.meter to miles:
+//1m=1*0.0006213712//formula
+var meter=10;
+console.log(meter*0.0006213712);
+//console.log(meter/1609);
+//-----------------------------------------
+//6.pounds to kg:
+//formula:pound/2.205
+var pound=2;
+console.log(pound*0.45359237);
+//console.log(pound/2.205);
+//-------------------------------------------
+//7.calculating batting average:
+var average=34;
+console.log(average/200);
+//----------------------------------------------------------
+//8.calculate the 5 test scores and print their average:
+var score1=23;
+var score2=68;
+var score3=70;
+var score4=100;
+var score5=1;
+var average1=((score1+score2+score3+score4)/5);
+console.log(average1);
+//--------------------------------------------------
+//9.power of any number x^y.
+var x=3;
+var y=2;
+console.log(Math.pow(x,y));
+//----------------------------------------------------------
+//10.calculate simple interest:
+//simple interest=(principal amount*rate of interest*time)
+var p=2000;
+var r=1.75;
+var t=2;
+var SI=((p*r*t)/100);
+console.log(SI);
+//-----------------------------------------------
+//11.calculate area of an equilateral triangle:
+var area=14;
+var triangle=(((Math.sqrt(3))/4)*(Math.pow(area,2)));
+console.log(triangle);
+//------------------------------------
+//12.area of isosceles triangle:
+//formula:A=(bh/2)
+var base=22;
+var height=7;
+console.log((base*height)/2);
+//------------------------------------
+//13.volume of sphere:
+//formula:V=(4/3)*PI*Math.pow(r,3);
+var r=7;
+var v=((4/3)*Math.PI*(Math.pow(r,3)));
+console.log(v);
+//------------------------------
+//14.volume of prism:
+//formula:v=b*h
+var B=34;
+var H=10;
+var V=(B*H);
+console.log(V)
+//--------------------------
+//15.find area of triangle:
+//formula:(1/2)*(b*h)
+var base1=24;
+var height=16;
+var triangle1=((base1*height)/2)
+console.log(triangle1);
+//--------------------------------------
+//16.calculate the discount of product:
+var actualcost=230;
+var sellcost=180;
+//var discount=(actualcost-sellcost)
+var discount=(((actualcost-sellcost)/actualcost)*100)
+console.log(discount);
+//-----------------------
+//18.Given two numbers and perform all arithmetic operations.
+//arthmatic operators:+,-,*,%,/
+var arthmatic1=23;
+var arthmatic2=5;
+console.log(arthmatic1*arthmatic2);
+//------------------------------------------
+//21.calculate CGPA:
+var mark=459;
+var subject=5;
+var CGPA=((mark/subject)/10);
+console.log(CGPA);
+//-----------------------------------------------------------------------
+
+//TASK-1:-Simple Programs todo for variables:-
+//1.declare the  four variable without assining values and print the consolsole
+var number1=21;
+var number2=34;
+var number3=56;
+var number4=7;
+console.log(number1);
+console.log(number2);
+console.log(number3);
+console.log(number4);
+//---------------------------------------------------------------
+//2.value of variable myvar as output:
+var myvar=1;
+console.log("myvar");
+//ans-myvar
+//-------------------------------------------------------------------
+//3.declare variables to store your firstname,last name,marital status,country,and age in multiple line:
+var firstname ="ABIMANYU";
+var lastname ="A";
+var maritalstatus ="SINGLE";
+var country ="INDIA";
+var age =22
+console.log(firstname);
+console.log(lastname);
+console.log(maritalstatus);
+console.log(country);
+console.log(age);
+//------------------------------------------------------------------------
+//4.declare variables to store your firstname,last name,marital status,country,and age in single line:
+var firstname1 ="ABIMANYU";
+var lastname1 ="A";
+var maritalstatus1 ="SINGLE";
+var country1 ="INDIA";
+var age1 =22
+
+//-------------------------------------------
+//6.convert the string to integer
+//answer:-
+//parseInt()
+//pluse Sign(+)
+//--------------------------------------
+//7.write a 6 truthly & falsely value:
+var value1=2;
+var value2="2"
+console.log(value1===value2);
+//---------------------------------
+var value3=23;
+var value4=23;
+console.log(value3===value4)
+//---------------------------------
+var value5=10;
+var value6=+"10"
+console.log(value5===value6);
+//---------------------------------
+var value7=[1,2,3];
+var value8=[1,2,3];
+console.log(value7===value8);
+//----------------------------------
+var value9=5
+var value10=6
+if(value9===value10){
+    console.log(true)
+}
+else{
+    console.log(false)
+}
+//-----------------------------------
+var value11="abc";
+var value12="abc";
+console.log(value11===value12)
+//---------------------------------------------------------------
