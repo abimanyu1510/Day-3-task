@@ -102,12 +102,22 @@ var sellcost=180;
 var discount=(((actualcost-sellcost)/actualcost)*100)
 console.log(discount);
 //-----------------------
-Display the asterisk pattern as shown below(No loop needed):
-*****
-*****
-*****
-*****
-*****
+//17.Given their radius of a circle and find its diameter, circumference and area:
+var radius=24;
+//1.Diameter:D=2*radius(r):
+console.log(2*radius);
+//2Circumference:C=2*PI*r
+console.log(2*Math.PI*radius);
+//3.Area:A=PI*pow(r,2)
+console.log(Math.pow(radius,2)*Math.PI)
+
+//------------------------------------------------------------------------
+//19.Display the asterisk pattern as shown below(No loop needed):
+//*****
+//*****
+//*****
+//*****
+//*****
 console.log(*****);
 console.log(*****);
 console.log(*****);
@@ -116,14 +126,40 @@ console.log(*****);
 //--------------------------------------------------------------------
 //18.Given two numbers and perform all arithmetic operations.
 //arthmatic operators:+,-,*,%,/
-var arthmatic1=23;
+var arthmatic1=22;
 var arthmatic2=5;
+//Addition:
+console.log(arthmatic1+arthmatic2);
+//Subtraction:
+console.log(arthmatic1-arthmatic2);
+//Multipilication:
 console.log(arthmatic1*arthmatic2);
+//Division:
+console.log(arthmatic1/arthmatic2);
+//Modulus:
+consolsole.log(arthmatic1%arthmatic1);
+
 //------------------------------------------
+//20.Calculate electricity bill?
+//For example, a consumer consumes 100 watts per hour daily for one month. Calculate the total energy bill of that consumer if per unit rate is 10?
+
+//1.calculate the daily energy consumption in kilowatt-hours(kWh):
+//formula:
+//daily comsumption(kWh)=(Power consumption in watt/1000)*(hour per day)
+kWh1=(100/1000)*24
+//2.calculate the monthly energy consumption in kWh:
+//monthly consumption(kWH)=daily consumption(kWh1)*num.of  days in a month(28,30,31)
+KWH=kWh1*30
+//calculate total electicity bill:
+ //total bill=monthly consumption(KWH)*per unit
+ var perunit=10;
+var totalbill=KWH*perunit;
+console.log(totalbill);
+//-------------------------------------------------------------
 //21.calculate CGPA:
 var mark=459;
 var subject=5;
-var CGPA=((mark/subject)/10);
+var CGPA=((mark/subject)/9.5);
 console.log(CGPA);
 //-----------------------------------------------------------------------
 
@@ -306,7 +342,7 @@ for (let i = 0; i < friends.length; i++)
     }
     console.log(friends[i]);
   }
-  
+  //--------------------------------------------------------
   
   
   

@@ -25,3 +25,4 @@ for(var i=0;i<result1.length;i++){
     console.log(result1[i].name.common,result1[i].region,result1[i].subregion,result1[i].population)
 }
 }
+
