@@ -10,9 +10,9 @@ if(json1===json2);
 slse{
     console.log("both are different")
 }
-//------------------------------------------------------------
-//QUESTION-2:-
-var request =new XMLHttpRequest();
+//-----------------------------------------------------------
+/*//QUESTION-2:-
+/*var request =new XMLHttpRequest();
 request.open("GET","https://restcountries.com/v3.1/all",true)
 request.send();
 request.onload =function(){
@@ -39,3 +39,4 @@ for(var i=0;i<result1.length;i++){
 }
 }
 
+/*
