@@ -1,3 +1,16 @@
+//QUESTION:-1
+let object1={name:"persion 1",age:5};
+let object2={age:5,name:"persion 1"};
+let json1=JSON.stringify(object1);
+let json2=JSON.stringify(object2);
+if(json1===json2);
+{
+    console.log("both are equal");
+}
+slse{
+    console.log("both are different")
+}
+//------------------------------------------------------------
 //QUESTION-2:-
 var request =new XMLHttpRequest();
 request.open("GET","https://restcountries.com/v3.1/all",true)
