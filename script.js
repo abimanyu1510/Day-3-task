@@ -1,18 +1,18 @@
 //QUESTION:-1
-let object1={name:"persion 1",age:5};
-let object2={age:5,name:"persion 1"};
-let json1=JSON.stringify(object1);
-let json2=JSON.stringify(object2);
+let obj1={name:"persion 1",age:5};
+let obj2={age:5,name:"persion 1"};
+let json1=JSON.stringify(obj1);
+let json2=JSON.stringify(obj2);
 if(json1===json2);
 {
     console.log("both are equal");
 }
-slse{
+else{
     console.log("both are different")
 }
 //-----------------------------------------------------------
-/*//QUESTION-2:-
-/*var request =new XMLHttpRequest();
+//QUESTION-2:-
+var request =new XMLHttpRequest();
 request.open("GET","https://restcountries.com/v3.1/all",true)
 request.send();
 request.onload =function(){
@@ -38,5 +38,3 @@ for(var i=0;i<result1.length;i++){
     console.log(result1[i].name.common,result1[i].region,result1[i].subregion,result1[i].population)
 }
 }
-
-/*
