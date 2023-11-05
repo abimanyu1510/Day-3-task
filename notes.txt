@@ -216,13 +216,28 @@ var noValue = null; // explicitly set to null.
 //parseInt()
 //pluse Sign(+)
 //--------------------------------------
-//7.write a 6 truthly & falsely value in javscript:
-Truthly values:
-
-    true - The boolean value true is always truthly.
-    "Hello" - A non-empty string is considered truthly.
-    42 - A non-zero number is truthly.
-    [] - An empty array is considered truthly.
+//7.write a 6 truthy & falsey value in javscript:
+const a=2;
+const b=2;
+console.log(a===b);
+//-----------------------
+const a1=2;
+const b1="2";
+console.log(a1!==b1);
+//------------------------------
+const a3=12;
+const b3=[12];
+console.log(a3!==b3);
+//--------------------------------
+const a4=[12];
+const b4=[12];
+console.log(a4!==b4);
+//-----------------------------------------
+Truthy values:
+    true - The boolean value true is always truthy.
+    "Hello" - A non-empty string is considered truthy.
+    42 - A non-zero number is truthy.
+    [] - An empty array is considered truthy.
     {} - An empty object is truthly.
     " "-inside the duoble codes always consider a string.
     []- its index values start from 0
